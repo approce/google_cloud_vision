@@ -1,13 +1,13 @@
 requirejs.config({
     baseUrl: '/',
     paths  : {
-        text              : 'lib/require/text',
-        json              : 'lib/require/json',
-        jquery            : 'lib/jquery.min',
-        underscore        : 'lib/underscore-min',
         main              : 'js/main',
+        text              : 'lib/requirejs-text/text',
+        json              : 'lib/requirejs-json/json',
+        jquery            : 'lib/jquery/dist/jquery.min',
+        underscore        : 'lib/underscore/underscore-min',
         backbone          : 'lib/backbone/backbone-min',
-        marionette        : 'lib/marionette/backbone.marionette.min',
+        marionette        : 'lib/marionette/lib/backbone.marionette.min',
         bootstrap         : 'lib/bootstrap/js/bootstrap.min',
         socket_io         : 'lib/socket.io.client',
         "backbone.stickit": 'lib/backbone.stickit/backbone.stickit',
