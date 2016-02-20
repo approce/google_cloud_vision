@@ -9,6 +9,7 @@ require([
 
     itemView.on('image:uploaded', function (file) {
         itemView.ui.pendingBar.show();
+        itemView.ui.labelsContainer.empty();
         execute(file).then(parseResponse.bind(itemView));
     });
 
